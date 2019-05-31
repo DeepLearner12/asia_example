@@ -1,0 +1,76 @@
+body {
+	font-size: 16px;
+	color: #000;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	height: 100vh;
+}
+
+.background-buffet {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: url("../images/interior_1920_1080.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.test-logo {
+	height: 300px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #C0C0C0;
+	opacity: 0.8;
+
+}
+
+.heading {
+	margin-top: 40px;
+	color: #fff;
+	font-size: 2.0em;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+.heading:hover {
+	transform: scale(1.2);
+}
+
+.placeholder {
+	height: 800px;
+	background-image: url("../images/buffet_1920_1080.png");
+}
+
+/*** Extra Large devices ***/
+@media (min-width: 1200px) {
+
+}
+
+/*** Large devices ***/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*** Medium devices ***/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*** Small devices ***/
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/*** Extra Small devices ***/
+@media (min-width: 401px) and (max-width: 575px) {
+}
+
+/*** Extra Extra small devices ***/
+@media (max-width: 400px) {
+
+}
