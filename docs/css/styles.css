@@ -1,76 +1,273 @@
 body {
 	font-size: 16px;
-	color: #000;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-	height: 100vh;
 }
 
-.background-buffet {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
+.my-navbar {
+	min-height: 100px;
+	color: #fff;
+	/* box-shadow: 0px -2px 10px 0px #fff; */
+	border-bottom: 1px solid #fff;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: bold;
+  font-size: 1.4em;
+  transition: transform 0.4s;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+  transform: scale(1.05);
+  transition: transform 0.4s;
+}
+
+.navbar-nav a {
+  text-align: center;
+}
+
+a.nav-link {
+	color: #fff;
+	font-size: 1.4em;
+  font-family: 'Cinzel Decorative', cursive;
+  transition: transform 0.4s;
+}
+
+a.nav-link:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+  transition: transform 0.4s;
+}
+
+.navbar-toggler {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler-icon {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.titian {
+	background-image: url("../images/titian.gif");
+	background-repeat: repeat;
+}
+
+.my-jumbotron {
+	display: block;
 	background-image: url("../images/interior_1920_1080.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
-}
-
-.test-logo {
-	height: 300px;
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #C0C0C0;
-	opacity: 0.8;
-
-}
-
-.heading {
-	margin-top: 40px;
+	height: 600px;
 	color: #fff;
-	font-size: 2.0em;
-	font-weight: bold;
-	transition: 0.5s;
+	padding-top: 200px;
+	box-shadow: 0px 0px 10px 1px black;
 }
 
-.heading:hover {
-	transform: scale(1.2);
+.restaurant-subtitle {
+	margin-top: 50px;
 }
 
-.placeholder {
-	height: 800px;
-	background-image: url("../images/buffet_1920_1080.png");
+#greeting {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-/*** Extra Large devices ***/
-@media (min-width: 1200px) {
-
+.greeting-heading {
+	font-size: 2.2em;
+	font-family: 'Cinzel Decorative', cursive;
+  margin-bottom: 20px;
 }
 
-/*** Large devices ***/
-@media (min-width: 992px) and (max-width: 1199px) {
-
+.greeting-text {
+	margin: auto;
+	width: 75%;
 }
 
-/*** Medium devices ***/
-@media (min-width: 768px) and (max-width: 991px) {
-
+.features-title {
+  margin-top: 40px;
+  display: block;
+  height: 40px;
 }
 
-/*** Small devices ***/
-@media (min-width: 576px) and (max-width: 767px) {
-
+.elements-blocks .features-title:nth-child(0) {
+  margin-bottom: 100px;
 }
 
-/*** Extra Small devices ***/
-@media (min-width: 401px) and (max-width: 575px) {
+#take-away {
+  min-height: 100px;
+  line-height: 100px;
+  background-color: #cca500;
 }
 
-/*** Extra Extra small devices ***/
-@media (max-width: 400px) {
+.take-away-info {
+  font-size: 1.2em;
+  font-weight: bold;
+}
 
+#buffet {
+  color: #fff;
+  /* box-shadow: 0px 0px 10px 1px black; */
+	box-shadow: 0px -8px 8px -8px black;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.buffet-heading {
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+.buffet-clock-time {
+  font-weight: bold;
+  margin-bottom: 50px;
+  font-size: 1.1em;
+}
+
+.buffet-time {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.buffet-price {
+  font-weight: bold;
+}
+
+.buffet-age {
+  color: #ccc;
+  opacity: 0.8;
+  font-size: 0.9em;
+}
+
+.buffet-children-price {
+  color: #ccc;
+  opacity: 0.8; 
+  font-size: 0.9em;
+}
+
+.buffet-extras {
+  display: block;
+  font-style: italic;
+  font-size: 0.95em;
+  margin-bottom: 5px;
+}
+
+#events {
+  background-color: #cca500;
+  box-shadow: 0px 10px 20px 0px white;
+}
+
+.event-image {
+  background-image: url("../images/firmenfeier_640_455.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+.event-info {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.event-heading {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#location-hours {
+  box-shadow: 0px 0px 10px 1px black;
+	color: #fff;
+	padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.anfahrt-heading {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+.anfahrt-address {
+  line-height: 2.2em;
+}
+
+.hours-heading {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.hours {
+  margin-left: 10px;
+  line-height: 2.2em;
+}
+
+.google-map {
+  width: 100%;
+  height: 100%;
+}
+
+.map {
+	border-radius: 2%;
+  width: 100%;
+  height: 100%;
+	background-color: grey;
+  overflow: hidden;
+  min-height: 300px;
+}
+
+#contact {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact-question {
+  font-weight: bold;
+  font-size: 1.4em;
+  display: block;
+}
+
+.col-contact {
+  padding-right: 40px;
+}
+
+.contact-text {
+  margin-top: 20px;
+  display: block;
+}
+
+.contact-note {
+  margin-top: 20px;
+  display: block;
+  font-weight: bold;
+}
+
+.input-label {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.input-name {
+  display: block;
+  width: 75%;
+  margin-bottom: 10px;
+}
+
+
+#footer {
+  box-shadow: 0px 0px 10px 1px black;
+	min-height: 200px;
+  background-color: #000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
+  font-size: 1.25em;
+}
+
+.footer-asiaworld {
+  font-size: 1.2em;
 }

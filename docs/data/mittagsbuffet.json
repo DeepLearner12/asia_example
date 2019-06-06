@@ -1,0 +1,16 @@
+{
+  "heading": "Mittagsbuffet",
+  "time": "11:15 - 14:45 Uhr",
+  "entries": [
+    {
+      "time": "Montag - Freitag (außer feiertags)",
+      "price": "8,90 €",
+      "children": [
+        {
+          "age": "Kinder 6 - 11 Jahre",
+          "price": "5,90 €"
+        }
+      ]
+    }
+  ]
+}

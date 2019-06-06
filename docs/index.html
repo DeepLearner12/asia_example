@@ -1,39 +1,389 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<title>Asia World Restaurant</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/extra-large.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/extra-small.css">
+  <link rel="stylesheet" href="css/phone.css">
+  <link rel="stylesheet" href="css/my-basics.css">
+	<link rel="stylesheet" href="css/my-animations.css">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+  <link href="css/all.min.css" rel="stylesheet">
+  <title>Asia World Restaurant</title>
 </head>
+
 <body>
-	<div class="background-buffet">
+
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-sm row titian my-navbar">
+
+			<a class="navbar-brand d-sm-none" href="#">Asia World</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav w-100 justify-content-around">
+					<li class="nav-item">
+						<a class="nav-link" href="#buffet">Buffet</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Galerie</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#location-hours">Anfahrt</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Kontakt</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
 	</div>
 
-
-
-	<div class="container">
-		<div class="row">
-			<div class="col-3 text-center heading">Buffet</div>
-			<div class="col-3 text-center heading">Galerie</div>
-			<div class="col-3 text-center heading">Anfahrt</div>
-			<div class="col-3 text-center heading">Öffnungszeiten</div>
+	<div class="container-fluid">
+		<div class="row text-center my-jumbotron">
+			<h1 class="restaurant-title">ASIA WORLD</h1>
+			<h2 class="restaurant-subtitle">SHOW COOKING RESTAURANT</h2>
 		</div>
 	</div>
 
-	<div class="placeholder"></div>
-	<hr>
-	<div class="placeholder"></div>
-	<hr>	
-	<div class="placeholder"></div>
-	<hr>	
-	<div class="placeholder"></div>
+  <div id="greeting" class="container text-center">
+    <h2 class="greeting-heading">Herzlich Willkommen!</h2>
+    <p class="greeting-text">
+      Wir begrüssen Sie recht herzlich, wünschen Ihnen einen guten Appetit und hoffen,
+      daß Sie sich in unserem Hause wohl fühlen.
+    </p>
+    <div class="row elements-blocks">
+      <div class="col-12 col-md-3 col-sm-6 text-center">
+        <span class="text-uppercase font-weight-bold features-title">Kalte &amp; warme<br>Vorspeisen</span>
+        <hr>
+        <span class="feature-description">Verschiedene Salate, Suppen, asiatische Spezialitäten</span>
+      </div>
+      <div class="col-12 col-md-3 col-sm-6 text-center">
+        <span class="text-uppercase font-weight-bold features-title">Großes<br>Erlebnisbuffet</span>
+        <hr>
+        <span class="feature-description">Stellen Sie sich Ihr Menü selbst zusammen</span>
+      </div>
+      <div class="col-12 col-md-3 col-sm-6 text-center">
+        <span class="text-uppercase font-weight-bold features-title">Mongolischer<br>Grill</span>
+        <hr>
+        <span class="feature-description">Live Showcooking mit frischen Grillzutaten</span>
+      </div>
+      <div class="col-12 col-md-3 col-sm-6 text-center">
+        <span class="text-uppercase font-weight-bold features-title">Desserts</span>
+        <hr>
+        <span class="feature-description">Frisches Obst, gebackene Bananen, Eis, Schoko-Brunnen</span>
+      </div>
+    </div>
+
+	</div>
+
+	<div id="take-away" class="container-flud text-center">
+		<span class="take-away-info">... auch zum Mitnehmen! Lassen Sie sich Ihre Bestellung einpacken.</span>
+	</div>
+
+	<div id="buffet" class="container-fluid text-center titian">
+
+		<div class="container">
+			<h2 class="buffet-heading">Mittagsbuffet</h2>
+			<span class="buffet-clock-time"> 11:15 - 14:45 Uhr</span>
+
+			<div class="row margin-top-30">
+				<div class="col-8 text-left">
+					<span class="buffet-time">Montag - Freitag (außer feiertags)</span>
+				</div>
+				<div class="col-4 text-left">
+					<span class="buffet-price">8,90 €</span>
+				</div>
+			</div>
+			<div class="row margin-top-5">
+				<div class="col-12 col-sm-8 col-md-6 row">
+					<div class="col-6 text-left"><span class="buffet-age">Kinder 6 - 11 Jahre</span></div>
+					<div class="col-6 text-left"><span class="buffet-children-price">5,90 €</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-8 col-md-6 row">
+					<div class="col-6 text-left"><span class="buffet-age">Kinder 3 - 5 Jahre</span></div>
+					<div class="col-6 text-left"><span class="buffet-children-price">3,50 €</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-8 col-md-6 row">
+					<div class="col-6 text-left"><span class="buffet-age">Unter 3 Jahren</span></div>
+					<div class="col-6 text-left"><span class="buffet-children-price">kostenlos</span></div>
+				</div>
+			</div>
+
+			<div class="row margin-top-20">
+				<div class="col-8 text-left">
+					<span class="buffet-time">Samstag (außer feiertags)</span>
+					<span class="buffet-extras"> mit Live Cooking & Softeis</span>
+				</div>
+				<div class="col-4 text-left">
+					<span class="buffet-price">11,90 €</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-8 col-md-6 row">
+					<div class="col-6 text-left"><span class="buffet-age">Kinder 6 - 11 Jahre</span></div>
+					<div class="col-6 text-left"><span class="buffet-children-price">7,90 €</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-8 col-md-6 row">
+					<div class="col-6 text-left"><span class="buffet-age">Kinder 3 - 5 Jahre</span></div>
+					<div class="col-6 text-left"><span class="buffet-children-price">4,50 €</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-8 col-md-6 row">
+					<div class="col-6 text-left"><span class="buffet-age">Unter 3 Jahren</span></div>
+					<div class="col-6 text-left"><span class="buffet-children-price">kostenlos</span></div>
+				</div>
+			</div>
+
+			<div class="row margin-top-20">
+				<div class="col-8 text-left">
+					<span class="buffet-time">Sonntag (außer feiertags)</span>
+					<span class="buffet-extras"> mit Live Cooking, Softeis & Schoko-Brunnen</span>
+				</div>
+				<div class="col-4 text-left">
+					<span class="buffet-price">11,90 €</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-8 col-md-6 row">
+					<div class="col-6 text-left"><span class="buffet-age">Kinder 6 - 11 Jahre</span></div>
+					<div class="col-6 text-left"><span class="buffet-children-price">7,90 €</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-8 col-md-6 row">
+					<div class="col-6 text-left"><span class="buffet-age">Kinder 3 - 5 Jahre</span></div>
+					<div class="col-6 text-left"><span class="buffet-children-price">4,50 €</span></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-8 col-md-6 row">
+					<div class="col-6 text-left"><span class="buffet-age">Unter 3 Jahren</span></div>
+					<div class="col-6 text-left"><span class="buffet-children-price">kostenlos</span></div>
+				</div>
+			</div>
+
+		</div> <!-- End Container -->
+
+		<!--
+		<div class="container">
+
+			<h3>Erlebnisbuffet 17:15 - 22:00 Uhr</h3>
+
+			<div class="row">
+				<div class="col-8 text-left">
+					<p>Montag - Donnerstag (außer feiertags) mit Softeis & Schoko-Brunnen</p>
+				</div>
+				<div class="col-4 text-left">
+					16,50 €
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-6 row">
+					<div class="col-6 text-left">Kinder 6 - 11 Jahre</div>
+					<div class="col-6 text-left">8,90 €</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 row">
+					<div class="col-6 text-left">Kinder 3 - 5 Jahre</div>
+					<div class="col-6 text-left">4,50 €</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 row">
+					<div class="col-6 text-left">Unter 3 Jahren</div>
+					<div class="col-6 text-left">kostenlos</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-8 text-left">
+					<p>Freitag - Sonntag (außer feiertags) mit Softeis & Schoko-Brunnen</p>
+				</div>
+				<div class="col-4 text-left">
+					17,50 €
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-6 row">
+					<div class="col-6 text-left">Kinder 6 - 11 Jahre</div>
+					<div class="col-6 text-left">8,90 €</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 row">
+					<div class="col-6 text-left">Kinder 3 - 5 Jahre</div>
+					<div class="col-6 text-left">4,50 €</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 row">
+					<div class="col-6 text-left">Unter 3 Jahren</div>
+					<div class="col-6 text-left">kostenlos</div>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col-8 text-left">
+					<p>Feiertags 11:15 - 14:45 / 17:15 - 22:00 Uhr mit Softeis & Schoko-Brunnen</p>
+				</div>
+				<div class="col-4 text-left">
+					17,50 €
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-6 row">
+					<div class="col-6 text-left">Kinder 6 - 11 Jahre</div>
+					<div class="col-6 text-left">8,90 €</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 row">
+					<div class="col-6 text-left">Kinder 3 - 5 Jahre</div>
+					<div class="col-6 text-left">4,50 €</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 row">
+					<div class="col-6 text-left">Unter 3 Jahren</div>
+					<div class="col-6 text-left">kostenlos</div>
+				</div>
+			</div>
+
+
+
+		</div> <!-- End Container 
+	-->
+
+	</div>
+
+	<div id="events" class="container-fluid text-center">
+		<div class="row">
+			<div class="d-none d-sm-block col-sm-4 event-image"></div>
+			<div class="col-sm-8 text-left event-info">
+				<h2 class="event-heading">... Ihre Feier bei uns - bis zu 80 Personen</h2>
+				<p class="event-text">
+					Planen Sie Ihre Firmenfeier bei uns!<br>Verbringen Sie einen
+					unvergesslichen Abend in gemütlicher Atmosphäre mit Ihren Kollegen!
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="location-hours" class="container-fluid titian">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-12 col-md-4 text-left anfahrt">
+					<h2 class="anfahrt-heading">Anfahrt</h2>
+					<span class="anfahrt-address">
+						Adelheidstraße 36<br>
+						88046 Friedrichshafen<br>
+						<i class="fas fa-phone"></i> +49 7541 3780975 / 3780976<br>
+						Parkplätze am Haus vorhanden
+					</span>
+				</div>
+
+				<div class="col-12 col-md-4 text-left">
+					<div class="map">
+            <iframe class="google-map"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10748.484461213935!2d9.5055638!3d47.6626435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x779ca14b57bbe47d!2sAsia+World!5e0!3m2!1sde!2sde!4v1559397486980!5m2!1sde!2sde"
+							width="300" height="300" frameborder="0" style="border: 0" allowfullscreen></iframe>
+					</div>
+				</div>
+
+        <div class="col-12 col-md-4 text-left">
+          <h2 class="hours-heading">Öffnungszeiten</h2>
+          <span class="hours">Täglich:<br></span>
+          <span class="hours">11:30 - 15:00 Uhr<br></span>
+          <span class="hours">17:00 - 23:30 Uhr</span>
+        </div>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="contact" class="container-fluid">
+		<div class="container">
+			<div class="row">
+        <div class="col-12 col-md-6 col-contact">
+            <span class="contact-question">Haben Sie Fragen zu unserem Restaurant?</span>
+            <span class="contact-text">Kontaktieren Sie uns einfach und wir setzen uns schnellstmöglich
+            mit Ihnen in Verbindung. Wir freuen uns auf Ihre Anfrage!</span>
+            <span class="contact-note">Bitte beachten Sie, dass eine Tischreservierung nur
+            telefonisch möglich ist. Wir bitten um Ihr Verständnis.</span>
+        </div>
+        <div class="col-12 col-md-6">
+          <form action="mailto:deine@e-mail-adresse.de" method="post">
+            <span class="input-label">Name:</span>
+            <input class="input-name" type="text" name="name" value="" size="30" maxlength="50">
+            <span class="input-label">Email:</span>
+            <input class="input-name"  type="text" name="email" value="" size="30" maxlength="50">
+            <span class="input-label">Telefon:</span>
+            <input class="input-name"  type="text" name="phone" value="" size="30" maxlength="50">
+            <span class="input-label">Ihre Nachricht:</span>
+            <textarea class="input-name" rows=4" cols="30" name="message"></textarea>
+            <button type="button" class="btn btn-primary font-weight-bold">Senden</button>
+          </form>
+        </div>
+			</div>
+		</div>
+	</div>
+
+  <div id="footer" class="container-fluid">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <span class="footer-asiaworld">
+            <!-- www.restaurant-asiaworld.de -->
+          </span>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="footer-element col-12 col-sm-4 text-left text-sm-center">
+          <span class="impressum">Impressum</span>
+        </div>
+        <div class="footer-element col-12 col-sm-4 text-left text-sm-center">
+          <span class="datenschutz">Datenschutz</span>
+        </div>
+        <div class="footer-element col-12 col-sm-4 text-left text-sm-center">
+          <span class="facebook"><i class="fab fa-facebook-f"></i> facebook</span>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 	<script src="js/jquery331/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.visible.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
+
 </html>

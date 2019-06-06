@@ -1,56 +1,65 @@
 $(function() {
 
+  var win = $(window);
+  var allMods = $(".module");
+  
+  // Already visible modules
+  allMods.each(function(i, el) {
+    var el = $(el);
+    if (el.visible(true)) {
+      el.addClass("already-visible"); 
+    } 
+  });
+  
+  win.scroll(function(event) {
+    
+    allMods.each(function(i, el) {
+      var el = $(el);
+      if (el.visible(true)) {
+        el.addClass("come-in"); 
+      } 
+    });
+    
+  });
 
 
-// var slideIndex = 1;
+  // Select all links with hashes
+  $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function (event) {
+      // On-page links
+      if (
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        &&
+        location.hostname == this.hostname
+      ) {
+        // Figure out element to scroll to
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        // Does a scroll target exist?
+        if (target.length) {
+          // Only prevent default if animation is actually gonna happen
+          event.preventDefault();
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000, function () {
+            // Callback after animation
+            // Must change focus!
+            var $target = $(target);
+            $target.focus();
+            if ($target.is(":focus")) { // Checking if the target was focused
+              return false;
+            } else {
+              $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+              $target.focus(); // Set focus again
+            };
+          });
+        }
+      }
+    });
 
-var currentIndex = 1;
-var nextIndex = 0;
-showSlides();
-
-function showSlides() {
-
-	
-	var allElements = $(".my-slide");
-	var numElements = $(".my-slide").length;
-	var lastIndex = numElements - 1;
-	// console.log("Number of elements " + numElements);
-	$(".my-slide").hide();
-
-	/*
-	console.log("Elements before sorting");
-	for (var i = 0; i < allElements.length; i++) {
-		console.log($(allElements[i]).html());
-	}
-	*/
-	/*
-	$('.slideshow-wrapper').append($(allElements[4]));
-	$('.slideshow-wrapper').append($(allElements[0]));
-	$('.slideshow-wrapper').append($(allElements[1]));
-	$('.slideshow-wrapper').append($(allElements[2]));
-	$('.slideshow-wrapper').append($(allElements[3]));
-	*/
-
-	$('.slideshow-wrapper').append($(allElements[lastIndex]));
-	for (var i = 0; i < lastIndex; i++) {
-	 	$('.slideshow-wrapper').append($(allElements[i]));
-	}
-
-	/*
-	console.log("Elements after sorting");
-	for (var i = 0; i < allElements.length; i++) {
-		console.log($(allElements[i]).html());
-	}
-	*/
-
-	$(allElements[0]).addClass("slide-in");
-	$(allElements[1]).addClass("slide-out");
-	$(allElements[0]).show();
-	$(allElements[1]).show();
-	
-	setTimeout(showSlides, 5000);
-
-}
 
 
 
