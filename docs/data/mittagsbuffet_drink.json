@@ -1,19 +1,19 @@
 {
-  "heading": "Mittagsbuffet",
+  "heading": "All you can eat & drink<br>Mittagsbuffet",
   "time": "11:15 - 14:45 Uhr",
   "entries": [
     {
       "time": "Montag - Freitag (außer feiertags)",
-      "extras": "",
-      "price": "8,90 €",
+      "extras": "alkoholfreie Getränke, Kaffee/Tee",
+      "price": "13,50 €",
       "children": [
         {
           "age": "Kinder 6 - 11 Jahre",
-          "price": "5,90 €"
+          "price": "7,90 €"
         },
         {
           "age": "Kinder 3 - 5 Jahre",
-          "price": "3,50 €"
+          "price": "5,90 €"
         },
         {
           "age": "Unter 3 Jahren",
@@ -23,16 +23,16 @@
     },
     {
       "time": "Samstag (außer feiertags)",
-      "extras": "mit Live Cooking & Softeis",
-      "price": "11,90 €",
+      "extras": "alkoholfreie Getränke, Kaffee/Tee, Bier oder Wein",
+      "price": "18,90 €",
       "children": [
         {
           "age": "Kinder 6 - 11 Jahre",
-          "price": "7,90 €"
+          "price": "11,90 €"
         },
         {
           "age": "Kinder 3 - 5 Jahre",
-          "price": "4,50 €"
+          "price": "7,90 €"
         },
         {
           "age": "Unter 3 Jahren",
@@ -42,16 +42,16 @@
     },
     {
       "time": "Sonntag (außer feiertags)",
-      "extras": "mit Live Cooking, Softeis & Schoko-Brunnen",
-      "price": "16,50 €",
+      "extras": "alkoholfreie Getränke, Kaffee/Tee, Bier, Wein, Hugo, alkoholfreie Cocktails",
+      "price": "22,90 €",
       "children": [
         {
           "age": "Kinder 6 - 11 Jahre",
-          "price": "8,90 €"
+          "price": "11,90 €"
         },
         {
           "age": "Kinder 3 - 5 Jahre",
-          "price": "4,50 €"
+          "price": "9,90 €"
         },
         {
           "age": "Unter 3 Jahren",
@@ -61,16 +61,16 @@
     },
     {
       "time": "Feiertags",
-      "extras": "mit Live Cooking, Softeis & Schoko-Brunnen",
-      "price": "17,50 €",
+      "extras": "alkoholfreie Getränke, Kaffee/Tee, Bier, Wein, Hugo, alkoholfreie Cocktails",
+      "price": "23,90 €",
       "children": [
         {
           "age": "Kinder 6 - 11 Jahre",
-          "price": "8,90 €"
+          "price": "13,90 €"
         },
         {
           "age": "Kinder 3 - 5 Jahre",
-          "price": "4,50 €"
+          "price": "11,90 €"
         },
         {
           "age": "Unter 3 Jahren",

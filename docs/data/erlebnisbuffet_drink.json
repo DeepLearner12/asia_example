@@ -1,0 +1,52 @@
+{
+  "heading": "All you can eat & drink<br>Erlebnisbuffet",
+  "time": "17:00 - 22:30 Uhr",
+  "entries": [
+    {
+      "time": "Montag - Freitag (außer feiertags)",
+      "extras": "alkoholfreie Getränke, Bier, Wein, Hugo, alkoholfreie Cocktails",
+      "price": "23,90 €",
+      "children": [
+        {
+          "age": "Kinder 9 - 12 Jahre",
+          "price": "15,90 €"
+        },
+        {
+          "age": "Kinder 5 - 8 Jahre",
+          "price": "11,90 €"
+        },
+        {
+          "age": "Kinder 3 - 4 Jahre",
+          "price": "6,00 €"
+        },
+        {
+          "age": "Unter 3 Jahren",
+          "price": "kostenlos"
+        }
+      ]
+    },
+    {
+      "time": "Samstag, Sonntag, Feiertags (außer feiertags)",
+      "extras": "alkoholfreie Getränke, Kaffee/Tee, Bier oder Wein",
+      "price": "24,90 €",
+      "children": [
+        {
+          "age": "Kinder 9 - 12 Jahre",
+          "price": "15,90 €"
+        },
+        {
+          "age": "Kinder 5 - 8 Jahre",
+          "price": "11,90 €"
+        },
+        {
+          "age": "Kinder 3 - 4 Jahre",
+          "price": "6,00 €"
+        },
+        {
+          "age": "Unter 3 Jahren",
+          "price": "kostenlos"
+        }
+      ]
+    }
+  ]
+}

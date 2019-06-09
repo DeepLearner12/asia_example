@@ -1,34 +1,15 @@
 {
-  "heading": "Mittagsbuffet",
-  "time": "11:15 - 14:45 Uhr",
+  "heading": "Erlebnisbuffet",
+  "time": "17:15 - 22:00 Uhr",
   "entries": [
     {
-      "time": "Montag - Freitag (außer feiertags)",
-      "extras": "",
-      "price": "8,90 €",
+      "time": "Montag - Donnerstag (außer feiertags)",
+      "extras": "mit Softeis & Schoko-Brunnen",
+      "price": "16,50 €",
       "children": [
         {
           "age": "Kinder 6 - 11 Jahre",
-          "price": "5,90 €"
-        },
-        {
-          "age": "Kinder 3 - 5 Jahre",
-          "price": "3,50 €"
-        },
-        {
-          "age": "Unter 3 Jahren",
-          "price": "kostenlos"
-        }
-      ]
-    },
-    {
-      "time": "Samstag (außer feiertags)",
-      "extras": "mit Live Cooking & Softeis",
-      "price": "11,90 €",
-      "children": [
-        {
-          "age": "Kinder 6 - 11 Jahre",
-          "price": "7,90 €"
+          "price": "8,90 €"
         },
         {
           "age": "Kinder 3 - 5 Jahre",
@@ -41,9 +22,9 @@
       ]
     },
     {
-      "time": "Sonntag (außer feiertags)",
-      "extras": "mit Live Cooking, Softeis & Schoko-Brunnen",
-      "price": "16,50 €",
+      "time": "Freitag - Sonntag (außer feiertags)",
+      "extras": "mit Softeis & Schoko-Brunnen",
+      "price": "17,50 €",
       "children": [
         {
           "age": "Kinder 6 - 11 Jahre",
